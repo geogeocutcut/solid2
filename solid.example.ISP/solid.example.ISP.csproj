@@ -48,10 +48,15 @@
     <Compile Include="bad\CommuneDao.cs" />
     <Compile Include="bad\ExploitationDao.cs" />
     <Compile Include="bad\IQueryDao.cs" />
+    <Compile Include="good\Commune.cs" />
+    <Compile Include="good\CommuneDao.cs" />
+    <Compile Include="good\Exploitation.cs" />
+    <Compile Include="good\ExploitationDao.cs" />
+    <Compile Include="good\IQueryDao.cs" />
+    <Compile Include="good\IQueryReadDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="good\" />
     <Folder Include="zz-sesame\" />
   </ItemGroup>
   <ItemGroup>

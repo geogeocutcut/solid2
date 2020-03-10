@@ -40,11 +40,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bad\v1\ClassClient.cs" />
+    <Compile Include="bad\v1\Logger.cs" />
+    <Compile Include="bad\v2\ClassClient.cs" />
+    <Compile Include="bad\v2\Logger.cs" />
+    <Compile Include="bad\v3\ClassClient.cs" />
+    <Compile Include="bad\v3\Logger.cs" />
+    <Compile Include="good\v1\ClassClient.cs" />
+    <Compile Include="good\v1\Logger.cs" />
+    <Compile Include="good\v2\ClassClient.cs" />
+    <Compile Include="good\v2\DataBaseLogger.cs" />
+    <Compile Include="good\v2\FileLogger.cs" />
+    <Compile Include="good\v2\ILogger.cs" />
+    <Compile Include="good\v2\LogService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="bad\" />
-    <Folder Include="good\" />
     <Folder Include="zz-alertejob\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
