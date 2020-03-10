@@ -10,9 +10,8 @@ namespace solid.example._03___Liskov_substitution.bad
 
         public override void Vole()
         {
-            Allumer();
-            base.Vole();
-            // Log
+            if(On)
+              base.Vole();
         }
 
         public void Allumer()
