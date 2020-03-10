@@ -71,7 +71,7 @@
     <Compile Include="good\Business\ExploitationBusiness.cs" />
     <Compile Include="good\Dao\ExploitationDao.cs" />
     <Compile Include="good\Business\IExploitationDao.cs" />
-    <Compile Include="good\ExploitationGouvernementProxy.cs" />
+    <Compile Include="good\proxy\ExploitationGouvernementProxy.cs" />
     <Compile Include="good\Business\IExploitationGouvernementProxy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

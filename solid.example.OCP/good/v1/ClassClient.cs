@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace solid.example.OCP.bad.v1
+namespace solid.example.OCP.good.v1
 {
     public class ClassClient
     {

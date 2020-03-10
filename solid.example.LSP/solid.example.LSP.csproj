@@ -45,8 +45,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="bad\ClassClient.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="good\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
